@@ -1,0 +1,13 @@
+.myBtnDel {
+    padding: 5px 15px;
+    background: transparent;
+    border: 2px solid red;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+}
+
+.myBtnDel:active {
+    background-color: white;
+    color: red;
+}

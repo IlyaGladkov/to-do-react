@@ -1,0 +1,30 @@
+.modalTask {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.headerBox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.numberTask {
+    margin: 0;
+    padding: 0;
+}
+
+.headerTask {
+    margin: 0;
+    padding: 0;
+}
+
+.bodyTask {
+    padding: 8px;
+    width: 100%;
+    border: 2px solid grey;
+    border-radius: 8px;
+    text-align: center;
+    word-wrap: break-word;
+}

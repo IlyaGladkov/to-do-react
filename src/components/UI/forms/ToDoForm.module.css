@@ -1,0 +1,9 @@
+.myForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerAdd {
+    color: #00C503;
+}

@@ -1,0 +1,15 @@
+.myBtnAdd {
+    width: 95%;
+    margin-top: 10px;
+    padding: 5px 15px;
+    background: transparent;
+    border: 2px solid #00C503;
+    border-radius: 5px;
+    color: white;
+    background-color: #00C503;
+}
+
+.myBtnAdd:active {
+    background-color: white;
+    color: #00C503;
+}
