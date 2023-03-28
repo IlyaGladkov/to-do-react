@@ -6,11 +6,9 @@ import MyButtonAdd from './components/UI/MyButton/MyButtonAdd/MyButtonAdd'
 import MyModal from './components/UI/MyModal/MyModal';
 import './style/App.css';
 
-function App() {
+export default function App() {
 
-  const [toDoItems, setToDoItems] = useState([
-    ...JSON.parse(localStorage.getItem('tasks'))
-  ])
+  const [toDoItems, setToDoItems] = useState(JSON.parse(localStorage.getItem('tasks')))
   const [modalForm, setModalForm] = useState(false)
   const [modalTask, setModalTask] = useState(false)
   const [task, setTask] = useState({})
@@ -65,5 +63,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
