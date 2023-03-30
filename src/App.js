@@ -8,7 +8,9 @@ import './style/App.css';
 
 export default function App() {
 
-  const [toDoItems, setToDoItems] = useState(JSON.parse(localStorage.getItem('tasks')))
+  const [toDoItems, setToDoItems] = useState(
+    JSON.parse(localStorage.getItem('tasks')) === null ? [] : JSON.parse(localStorage.getItem('tasks'))
+  )
   const [modalForm, setModalForm] = useState(false)
   const [modalTask, setModalTask] = useState(false)
   const [task, setTask] = useState({})
